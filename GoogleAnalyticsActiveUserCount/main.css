@@ -1,0 +1,69 @@
+.active-top {
+  font-size: 200%;
+}
+
+.active-bottom {
+  font-size: 130%;
+}
+
+.MainBox {
+  display: inline-block;
+   text-align:center;
+    min-width:200px;
+  min-height:200px;
+  width:80%;
+}
+
+
+.ActiveUsers {
+  /*  background: #f3f2f0; 
+    border: 1px solid #d4d2d0; 
+    border-radius: 4px; */
+    font-weight: 100;
+ /*   padding: .5em 1.5em;
+    white-space: nowrap; */
+    text-align:center;
+
+}
+
+.ActiveUsers-value {
+    display: inline-block;
+    font-size: 600%;
+    text-align:center;
+}
+.ActiveUsers.is-increasing {
+    -webkit-animation: increase 3s;
+    animation: increase 3s
+}
+.ActiveUsers.is-decreasing {
+    -webkit-animation: decrease 3s;
+    animation: decrease 3s
+}
+@-webkit-keyframes increase {
+    10% {
+        background-color: #eaffea;
+        border-color: hsla(120, 100%, 25%, .5);
+        color: hsla(120, 100%, 25%, 1)
+    }
+}
+@keyframes increase {
+    10% {
+        background-color: #eaffea;
+        border-color: hsla(120, 100%, 25%, .5);
+        color: hsla(120, 100%, 25%, 1)
+    }
+}
+@-webkit-keyframes decrease {
+    10% {
+        background-color: #ffeaea;
+        border-color: hsla(0, 100%, 50%, .5);
+        color: red
+    }
+}
+@keyframes decrease {
+    10% {
+        background-color: #ffeaea;
+        border-color: hsla(0, 100%, 50%, .5);
+        color: red
+    }
+}

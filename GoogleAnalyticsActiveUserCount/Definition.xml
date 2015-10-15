@@ -1,0 +1,11 @@
+﻿ <?xml version="1.0" encoding="utf-8"?>
+<ExtensionObject Label="GA ActiveUsers" Description="GA ActiveUsers" PageHeight="20000">
+ <Text Label="Client Id" Initial="555595204069-pgcgli1muvuam271pi9tol5fjjb078nr.apps.googleusercontent.com" Expression=""/>
+ <Text Label="Profile (View) Id" Initial="57714013" Expression=""/>
+  <Initiate Name="Chart.Title" value="GoogleAnalyticsActiveUsers" />
+  <Initiate Name="Caption.Text" Value="GoogleAnalyticsActiveUsers" />
+  <Initiate Name="Chart.BgColor.ColorHex" value="#FFF" />
+</ExtensionObject>
+
+
+
